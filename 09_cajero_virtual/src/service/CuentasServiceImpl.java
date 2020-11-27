@@ -34,5 +34,10 @@ public class CuentasServiceImpl implements CuentasService {
 		em.merge(cliente);*/
 
 	}
+	@Override
+	public void ingresarPruebaGit(int numeroCuenta, int dni) {
+		System.out.println("Cambios Git");
+		
+	}
 
 }
