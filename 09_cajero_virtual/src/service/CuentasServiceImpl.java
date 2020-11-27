@@ -39,5 +39,10 @@ public class CuentasServiceImpl implements CuentasService {
 		System.out.println("Cambios Git");
 		
 	}
+	@Override
+	public void extraerPruebaGit3(int numeroCuenta, int dni) {
+		System.out.println("Cambios Git3");
+		
+	}
 
 }
